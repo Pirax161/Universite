@@ -70,13 +70,13 @@ click_notes.addEventListener('click', () => {
         clone2 = docDiv.cloneNode(true);
 
         // Modifier clone1
-        clone1.querySelector('img').src = '/images/angle-right.svg';
+        clone1.querySelector('img').src = 'angle-right.svg';
         clone1.querySelector('img').alt = 'Affichage';
         clone1.querySelector('a').href = 'resultat_annee.html';
         clone1.querySelector('a').textContent = 'Affichage';
 
         // Modifier clone2
-        clone2.querySelector('img').src = '/images/angle-right.svg';
+        clone2.querySelector('img').src = 'angle-right.svg';
         clone2.querySelector('img').alt = 'Historique';
         clone2.querySelector('a').href = 'historique.html';
         clone2.querySelector('a').textContent = 'Historique';
@@ -140,3 +140,4 @@ document.addEventListener("DOMContentLoaded", () => {
         menuBtn.style.display = "block"; // réafficher hamburger
     });
 });
+
